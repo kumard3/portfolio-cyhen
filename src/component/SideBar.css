@@ -1,0 +1,12 @@
+.text-home{
+    visibility: hidden;
+    opacity: 0;
+    color: blanchedalmond;
+}
+
+
+.home-div:hover .text-home{
+visibility: visible;
+opacity: 1;
+color: #ffff;
+}

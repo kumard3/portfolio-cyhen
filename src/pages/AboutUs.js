@@ -1,11 +1,17 @@
 import React from 'react'
-
+import styled from 'styled-components'
 function AboutUs() {
     return (
-        <div >
-            
-        </div>
+        <Container>
+        
+        </Container>
     )
 }
 
 export default AboutUs
+const Container = styled.div `
+width:88vw;
+height:100vh;
+float:right;
+background-color: black;
+`
