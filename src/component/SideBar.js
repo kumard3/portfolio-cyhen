@@ -2,11 +2,9 @@ import React from 'react'
 import './SideBar.css'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-import logo from './logo.jpg'
 function SideBar() {
     return(
         <Sidebar>
-            <Logo > <img src={logo}/></Logo>
             <Wrapper>               
                 <Link to='/home'><i className="icon fa fa-home fa-2x"/><b className="sidebar-text">Home</b></Link>
                 <Link to='/about'><i className="icon fa fa-coffee fa-2x"/><b className="sidebar-text">About</b> </Link>
