@@ -58,20 +58,19 @@ transition: all .2s ease-in-out;
   padding:15px;
 }
 b {
+  transition: all .2s ease-in-out !important;
   display: none;
 }h3 {
   display: none;
 }
 
 a:hover {
-  transition: 0.3s;
-  color: #fff;
+\  color: #fff;
 }
  a:hover i {
   display: none;
 }
  a:hover b {
-  transition: all .2s ease-in-out !important;
   opacity: 0.6;
   display: block;
 }
