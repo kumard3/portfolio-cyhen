@@ -4,6 +4,7 @@ import styled from 'styled-components'
 function Home() {
     return (
         <Container>
+        <span> Bod</span>
             <Wrapper>
             <TextBox>
                  

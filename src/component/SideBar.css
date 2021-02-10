@@ -1,12 +1,110 @@
-.text-home{
-    visibility: hidden;
-    opacity: 0;
-    color: blanchedalmond;
+.sidebar-text{
+ font-size: 20px;
+ color : white;
+ margin-left: 0px;
 }
 
 
-.home-div:hover .text-home{
-visibility: visible;
-opacity: 1;
-color: #ffff;
+.icon {
+    font-size: 20px;
+    color : white;
+}
+
+.fa-home{
+    color: tomato;
+}
+
+.fa-coffee{
+
+color: violet;
+}
+
+
+.fa-code{
+    color:yellow;
+}
+
+.fa-comment{
+    color: rgb(100, 146, 8);
+}
+
+
+
+
+@media  screen and (min-width:300px) and (max-width: 400px) {
+    a{
+        
+        font-size: 17px;
+        margin-left: 0px;
+        color: white;
+        padding: 7px !important;
+    }
+ .icon{
+     font-size: 17px;
+     margin-left: 0px;
+     color: white;
+     padding: 0px;
+ }
+ .sidebar-text{
+    font-size: 10px;
+    color : white;
+    margin-left: 0px !important;
+   }
+}
+@media  screen and (min-width:400px) and (max-width: 500px) {
+    a{
+        
+        font-size: 17px;
+        margin-left: 0px;
+        color: white;
+        padding: 7px !important;
+    }
+ .icon{
+     font-size: 17px;
+     margin-left: 0px;
+     color: white;
+     padding: 0px;
+     margin-left: -10px;
+ }
+ .sidebar-text{
+    font-size: 10px;
+    color : white;
+    margin-left: -10px;
+    padding: 0px !important;
+   }
+}
+
+
+@media screen and (min-height:300px) and (max-height:400px){
+    a{
+        font-size: 17px;
+        margin-left: 0px;
+        color: white;
+        padding: 6px !important;
+    }
+
+}
+@media screen and (min-height:400px) and (max-height:500px){
+    a{
+        font-size: 17px;
+        margin-left: 0px;
+        color: white;
+        padding: 8px !important;
+    }
+    .icon{
+
+    }
+
+}
+@media screen and (min-height:500px) and (max-height:600px){
+    a{
+        font-size: 17px;
+        margin-left: 0px;
+        color: white;
+        padding: 10px !important;
+    }
+    .icon{
+
+    }
+
 }
