@@ -1,35 +1,20 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './App.css';
-import SideBar from './component/SideBar';
-import AboutUs from './pages/AboutUs';
-import Contact from './pages/Contact';
-import Home from './pages/Home';
-import Projects from './pages/Projects';
+import "./Styles/App.scss";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Home from "./Pages/Home";
+import Sidebar from "./Components/Sidebar";
 
 function App() {
   return (
-    <div className="app">
-      <Router>        
-        <Switch>  
-          <Route path='/contact'>       
-           <SideBar/>
-            <Contact/>
-            </Route>
-            <Route path='/projects'>        
-          <SideBar/>
-           <Projects/>
-            </Route>
-          <Route path='/about'>        
-          <SideBar/>
-           <AboutUs/>
-            </Route>
-            <Route path='/'>
-            <SideBar/>
-            <Home/>
+    <Router>
+      <div className="app">
+        <Switch>
+          <Route path="/">
+            <Sidebar />
+            <Home />
           </Route>
-        </Switch>     
-      </Router>
-    </div>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
